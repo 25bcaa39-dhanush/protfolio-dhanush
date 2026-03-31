@@ -24,6 +24,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
         }
 
     } catch (error) {
+        console.error(error);
         alert("Server not running!");
     }
 });
